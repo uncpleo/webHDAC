@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Asignacion de citas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="list">
+                <li class="list_item">
+                    <div class="list_button">
+                        <img src="assets/dashboard.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Inicio</a>
+                    </div>
+                </li>
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Consulta externa</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                    <ul class="list_show">
+                        <li class="list_inside">
+                            <!-- <img src="assets/paciente.svg" class="list_img_1"> -->
+                            <a href="#" class="nav_link nav_link--inside">Paciente</a>
+                        </li>
+                        <li class="list_inside">
+                            <!-- <img src="assets/citas.svg" class="list_img_1"> -->
+                            <a href="citas.html" class="nav_link nav_link--inside">Citas y Admisión</a>
+                        </li>
+                        <li class="list_inside">
+                            <!-- <img src="assets/triage.svg" class="list_img_1"> -->
+                            <a href="#" class="nav_link nav_link--inside">Registro de Triaje</a>
+                        </li>
+                        <li class="list_inside">
+                            <!-- <img src="assets/registro.svg" class="list_img_1"> -->
+                            <a href="#" class="nav_link nav_link--inside">Registro de atenciones</a>
+                        </li>
+                        <li class="list_inside">
+                            <!-- <img src="assets/file.svg" class="list_img_1"> -->
+                            <a href="#" class="nav_link nav_link--inside">Recetas</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Emergencia</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                    <ul class="list_show">
+                        <!--
+                            <li class="list_inside">
+                            <img src="assets/paciente.svg" class="list_img_1">
+                            <a href="#" class="nav_link nav_link--inside">Paciente</a>
+                        </li>
+                        <li class="list_inside">
+                            <img src="assets/citas.svg" class="list_img_1">
+                            <a href="#" class="nav_link nav_link--inside">Citas y Admisión</a>
+                        </li>
+                        <li class="list_inside">
+                            <img src="assets/triage.svg" class="list_img_1">
+                            <a href="#" class="nav_link nav_link--inside">Registro de Triaje</a>
+                        </li>
+                        <li class="list_inside">
+                            <img src="assets/registro.svg" class="list_img_1">
+                            <a href="#" class="nav_link nav_link--inside">Registro de atenciones</a>
+                        </li>
+                        <li class="list_inside">
+                            <img src="assets/file.svg" class="list_img_1">
+                            <a href="#" class="nav_link nav_link--inside">Recetas</a>
+                        </li>
+                        -->
+                    </ul>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Hospitalización</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Programacion General</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Archivo Clinico</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Caja</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Farmacia</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Facturación</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Fact - Config</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <!-- <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Seguridad</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">General</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Laboratorio</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Imagenología</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Estadística</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">SIS</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">HIS</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+
+                <li class="list_item list_item--click">
+                    <div class="list_button list_button--click">
+                        <img src="assets/consultas.svg" class="list_img" alt="">
+                        <a href="#" class="nav_link">Centro Quirúrgico</a>
+                        <img src="assets/arrow.svg" class="list_arrow" alt="">
+                    </div>
+                </li>
+                 -->
+            </ul>
+        </nav>
+        <main class="content_main">
+            <article class="content_article">
+                <h1>
+                    Contenedor principal
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nobis eligendi, incidunt modi quod vero esse quis ratione necessitatibus fuga facere molestias aperiam dolore fugiat, laudantium dolorum quaerat veritatis non?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nobis eligendi, incidunt modi quod vero esse quis ratione necessitatibus fuga facere molestias aperiam dolore fugiat, laudantium dolorum quaerat veritatis non?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nobis eligendi, incidunt modi quod vero esse quis ratione necessitatibus fuga facere molestias aperiam dolore fugiat, laudantium dolorum quaerat veritatis non?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nobis eligendi, incidunt modi quod vero esse quis ratione necessitatibus fuga facere molestias aperiam dolore fugiat, laudantium dolorum quaerat veritatis non?</p>
+                <h3>Otro titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia aperiam maiores quisquam, natus impedit similique ipsum maxime. Inventore aspernatur, asperiores eum magni rerum repudiandae perferendis dolores? Similique, nam facilis.</p>
+                <h3>Otro titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia aperiam maiores quisquam, natus impedit similique ipsum maxime. Inventore aspernatur, asperiores eum magni rerum repudiandae perferendis dolores? Similique, nam facilis.</p>
+                <h3>Otro titulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia aperiam maiores quisquam, natus impedit similique ipsum maxime. Inventore aspernatur, asperiores eum magni rerum repudiandae perferendis dolores? Similique, nam facilis.</p>
+            </article>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
